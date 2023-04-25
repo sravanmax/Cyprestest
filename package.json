@@ -1,0 +1,27 @@
+{
+  "name": "project_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "cypress": "^12.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-drag-drop": "^1.1.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "cypress-cucumber-preprocessor": {"nonGlobalStepDefinitions": true,
+  "step_definations":"cypress/e2e/DemoQA"
+
+}
+}
