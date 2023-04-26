@@ -19,9 +19,8 @@
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8"
-  },
-  "cypress-cucumber-preprocessor": {"nonGlobalStepDefinitions": true,
-  "step_definations":"cypress/e2e/DemoQA"
+  }
+  
 
 }
-}
+
